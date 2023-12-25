@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Search from "./Search"
 import { ThemeToggle } from "./ThemeToggle"
 
 export default function Header() {
@@ -10,7 +11,7 @@ export default function Header() {
 
       <div className="flex gap-x-2">
         {/* <GenreSelect /> */}
-        {/* <Search /> */}
+        <Search />
         <ThemeToggle />
       </div>
     </header>
