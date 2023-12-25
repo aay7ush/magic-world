@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { ThemeToggle } from "./ThemeToggle"
 
 export default function Header() {
   return (
@@ -10,7 +11,7 @@ export default function Header() {
       <div className="flex gap-x-2">
         {/* <GenreSelect /> */}
         {/* <Search /> */}
-        {/* <ThemeToggle /> */}
+        <ThemeToggle />
       </div>
     </header>
   )
