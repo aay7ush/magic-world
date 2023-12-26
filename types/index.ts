@@ -3,3 +3,8 @@ type SocialProps = {
   icon: JSX.Element
   url: string
 }
+
+type Genre = {
+  id: number
+  name: string
+}
